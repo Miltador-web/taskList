@@ -85,7 +85,7 @@ function saveTask() {
         const taskList = []
     
         for (let task of divCreated) {
-            var taskText = task.innerText.replace('apagar', '').trim()
+            var taskText = task.innerText.replace('Concluir', '').trim()
             taskList.push(taskText)
         }
         const taskJSON = JSON.stringify(taskList)

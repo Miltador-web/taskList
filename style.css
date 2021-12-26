@@ -121,8 +121,10 @@ form button:hover{
 }
 
 .input-tarefa{
+    display: inline-block;
+    max-width: 400px;
     border: solid 1px var(--primary-color);
-    padding: 10px 135px;
+    padding: 10px 100px;
     border-radius: 15px;
     color: var(--primary-color);
     
